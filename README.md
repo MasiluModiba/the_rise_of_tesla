@@ -1,7 +1,7 @@
 
 # Tesla Stock Price Analysis and Forecasting using Machine Learning and Time Series Techniques
 
-This repository contains a comprehensive, research-driven analysis of Tesla Inc.’s (TSLA) historical stock performance, focusing on exploratory data analysis (EDA), feature engineering, and predictive modeling. Using over nine years of stock price data, we build and evaluate traditional statistical tools alongside advanced machine learning models to understand, predict, and simulate investment strategies based on Tesla’s price behavior.
+This repository contains a research-driven analysis of Tesla Inc.’s (TSLA) historical stock performance, focusing on exploratory data analysis (EDA), feature engineering, and predictive modeling. Using over nine years of stock price data, we build and evaluate traditional statistical tools alongside advanced machine learning models to understand, predict, and simulate investment strategies based on Tesla’s price behavior.
 
 ---
 
