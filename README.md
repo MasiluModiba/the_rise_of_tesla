@@ -1,23 +1,23 @@
 
-# 📈 Tesla Stock Price Analysis and Forecasting using Machine Learning and Time Series Techniques
+# Tesla Stock Price Analysis and Forecasting using Machine Learning and Time Series Techniques
 
 This repository contains a comprehensive, research-driven analysis of Tesla Inc.’s (TSLA) historical stock performance, focusing on exploratory data analysis (EDA), feature engineering, and predictive modeling. Using over nine years of stock price data, we build and evaluate traditional statistical tools alongside advanced machine learning models to understand, predict, and simulate investment strategies based on Tesla’s price behavior.
 
 ---
 
-## 🗂 Project Overview
+## Project Overview
 
-### 📌 Motivation
+### Motivation
 Tesla (TSLA) is a high-profile, volatile, and narrative-driven stock frequently affected by social sentiment, tweets, media narratives, and broader tech trends. Its explosive growth and sharp corrections make it ideal for studying the limitations and opportunities in stock forecasting. This project combines financial domain knowledge, statistical analysis, and machine learning to simulate real-world investment strategy development.
 
-### 🎯 Objectives
+### Objectives
 - Understand the dynamics of Tesla’s price history: identifying key trends, volatility regimes, and turning points.
 - Engineer features and build forecasting models to predict Tesla’s next-day closing price.
 - Compare traditional methods with machine learning techniques (e.g., XGBoost, Linear Regression).
 - Benchmark Tesla’s performance against indices: Nasdaq and S&P 500.
 - Provide data-driven insights into portfolio allocation and risk-adjusted investing.
 
-### 📊 Dataset Overview
+### Dataset Overview
 - **Source:** Kaggle (Tesla Daily Historical Data)
 - **Period Covered:** January 1, 2015 – January 16, 2024
 - **Fields:** Date, Open, High, Low, Close, Volume
@@ -25,7 +25,7 @@ Tesla (TSLA) is a high-profile, volatile, and narrative-driven stock frequently 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### Volatility Regimes & Rolling Analysis
 - Tesla’s price history is divided into major phases:
@@ -33,7 +33,8 @@ Tesla (TSLA) is a high-profile, volatile, and narrative-driven stock frequently 
   - **2020–2021:** Parabolic growth fueled by speculative buying.
   - **2022–2024:** Correction phase with large drawdowns and volatility spikes.
 - These phases reflect shifts in sentiment, liquidity, and macroeconomic policy.
-![alt text](image.png)
+<Figure size 1200x600 with 1 Axes><img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/f6b679a7-8a53-4027-a41f-3d88c559e882" />
+
 
 ### Price Behavior & Statistical Summary
 - **Mean Log Return:** Positive, suggesting an upward drift in long-term price behavior.
@@ -41,7 +42,8 @@ Tesla (TSLA) is a high-profile, volatile, and narrative-driven stock frequently 
 - **Skewness & Kurtosis:** Slightly negative skew and fat-tailed distribution; extreme movements are more likely than normal.
 - **Normality Tests:** Shapiro-Wilk reject normality, validating the need for non-parametric modeling.
 
-![alt text](image-1.png)
+<Figure size 1000x200 with 1 Axes><img width="794" height="246" alt="image" src="https://github.com/user-attachments/assets/5be9eca0-60b6-48ea-be43-39786471ecc5" />
+
 
 ### Technical Indicators 
 - Moving Averages (MA20, MA100), Bollinger Bands, and VWAP added to understand trend-following and mean-reversion behaviors.
@@ -65,21 +67,21 @@ It's beta is nearly double the market's volatility showing extreme sensitivity t
 Portfolio Performance Metrics (2015–2024):
 
 Equal Weight:
-  Annual Return:    24.02%
-  Annual Volatility:27.98%
-  Sharpe Ratio:     0.86
+  - Annual Return:    24.02%
+  - Annual Volatility: 27.98%
+  - Sharpe Ratio:     0.86
 
 TSLA Heavy:
-  Annual Return:    32.77%
-  Annual Volatility:38.52%
-  Sharpe Ratio:     0.85
+  - Annual Return:    32.77%
+  - Annual Volatility: 38.52%
+  - Sharpe Ratio:     0.85
 
 Index Heavy:
-  Annual Return:    19.65%
-  Annual Volatility:23.69%
-  Sharpe Ratio:     0.83
+  - Annual Return:    19.65%
+  - Annual Volatility: 23.69%
+  - Sharpe Ratio:     0.83
 
-- An equal-weighted portfolio of Tesla, Nasdaq, and S&P 500 delivered strong long-term returns but with higher volatility than the Index heavy portfolio. Tesla heavy portfolio showed the highest growth potential but also increased risk and drawdowns. For most investors, combining Tesla with broad market indices offers a balanced approach which are higher returns with manageable risk, provided allocations match risk tolerance. Sharpe ratio remained relatively the same across the portfolios.
+An equal-weighted portfolio of Tesla, Nasdaq, and S&P 500 delivered strong long-term returns but with higher volatility than the Index heavy portfolio. Tesla heavy portfolio showed the highest growth potential but also increased risk and drawdowns. For most investors, combining Tesla with broad market indices offers a balanced approach which are higher returns with manageable risk, provided allocations match risk tolerance. Sharpe ratio remained relatively the same across the portfolios.
 
 ---
 
@@ -168,7 +170,7 @@ The project underscores the importance of blending **financial knowledge** with 
 
 ---
 
-## 📁 Files in this Repository
+## Files in this Repository
 
 - `Tesla Stock Data.ipynb`: Full notebook with analysis, visualizations, and models
 - `README.md`: This summary and extended documentation
