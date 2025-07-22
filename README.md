@@ -102,8 +102,8 @@ Three models were developed:
 
 | Model            | RMSE     | R² Score |
 |------------------|----------|----------|
-| Linear Regression| 13.52    | 0.56     |
-| Random Forest    | 9.21     | 0.74     |
+| Linear Regression| 8.63   | 0.82     |
+| Random Forest    | 8.71    | 0.82     |
 | **XGBoost**      | **7.97** | **0.85** |
 
 - XGBoost captured short-term dependencies and nonlinear interactions effectively.
